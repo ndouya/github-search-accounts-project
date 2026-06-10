@@ -7,8 +7,8 @@ export interface GithubUser {
   followers: number;
   following: number;
   location: string | null;
-  company: string | null;
   blog: string | null;
   twitter_username: string | null;
+  company: string | null;
   created_at: string;
 }
